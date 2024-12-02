@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\..\GPIO\GPIO\Driver\Include;..\..\..\GPIO\GPIO\Driver\Source;..\Driver\Include;..\Driver\Source</IncludePath>
+              <IncludePath>..\Driver\Include;..\Driver\Source;..\ProjetVide</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -390,48 +390,71 @@
               <FilePath>.\Application\principal.c</FilePath>
             </File>
             <File>
-              <FileName>MYGPIO.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\..\..\GPIO\GPIO\Driver\Include\MYGPIO.h</FilePath>
-            </File>
-            <File>
-              <FileName>Driver_GPIO.c</FileName>
+              <FileName>Girouette.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\GPIO\GPIO\Driver\Source\Driver_GPIO.c</FilePath>
+              <FilePath>..\Driver\Source\Girouette.c</FilePath>
             </File>
             <File>
-              <FileName>adc.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Driver\Include\adc.h</FilePath>
-            </File>
-            <File>
-              <FileName>adc.c</FileName>
+              <FileName>MyTimer.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Driver\Source\adc.c</FilePath>
+              <FilePath>..\Driver\Source\MyTimer.c</FilePath>
             </File>
             <File>
-              <FileName>usart.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Driver\Include\usart.h</FilePath>
-            </File>
-            <File>
-              <FileName>usart.c</FileName>
+              <FileName>Voile.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Driver\Source\usart.c</FilePath>
+              <FilePath>..\Driver\Source\Voile.c</FilePath>
+            </File>
+            <File>
+              <FileName>Plateau.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Plateau.c</FilePath>
+            </File>
+            <File>
+              <FileName>UART.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\UART.c</FilePath>
+            </File>
+            <File>
+              <FileName>Batterie.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Batterie.c</FilePath>
             </File>
           </Files>
         </Group>
         <Group>
-          <GroupName>TPGPIO</GroupName>
-        </Group>
-        <Group>
-          <GroupName>TPTIMER</GroupName>
-        </Group>
-        <Group>
-          <GroupName>TPADC</GroupName>
-        </Group>
-        <Group>
-          <GroupName>TPUART</GroupName>
+          <GroupName>Driver</GroupName>
+          <Files>
+            <File>
+              <FileName>Girouette.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Driver\Include\Girouette.h</FilePath>
+            </File>
+            <File>
+              <FileName>MyTimer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Driver\Include\MyTimer.h</FilePath>
+            </File>
+            <File>
+              <FileName>Voile.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Driver\Include\Voile.h</FilePath>
+            </File>
+            <File>
+              <FileName>Plateau.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Plateau.h</FilePath>
+            </File>
+            <File>
+              <FileName>UART.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\UART.h</FilePath>
+            </File>
+            <File>
+              <FileName>Batterie.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Batterie.h</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>::CMSIS</GroupName>
@@ -775,7 +798,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>..\Driver\Source;..\..\..\GPIO\GPIO\Driver\Include;..\..\..\GPIO\GPIO\Driver\Source</IncludePath>
+              <IncludePath>..\Driver\Include;..\Driver\Source;..\ProjetVide</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -894,48 +917,71 @@
               <FilePath>.\Application\principal.c</FilePath>
             </File>
             <File>
-              <FileName>MYGPIO.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\..\..\GPIO\GPIO\Driver\Include\MYGPIO.h</FilePath>
-            </File>
-            <File>
-              <FileName>Driver_GPIO.c</FileName>
+              <FileName>Girouette.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\GPIO\GPIO\Driver\Source\Driver_GPIO.c</FilePath>
+              <FilePath>..\Driver\Source\Girouette.c</FilePath>
             </File>
             <File>
-              <FileName>adc.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Driver\Include\adc.h</FilePath>
-            </File>
-            <File>
-              <FileName>adc.c</FileName>
+              <FileName>MyTimer.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Driver\Source\adc.c</FilePath>
+              <FilePath>..\Driver\Source\MyTimer.c</FilePath>
             </File>
             <File>
-              <FileName>usart.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Driver\Include\usart.h</FilePath>
-            </File>
-            <File>
-              <FileName>usart.c</FileName>
+              <FileName>Voile.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Driver\Source\usart.c</FilePath>
+              <FilePath>..\Driver\Source\Voile.c</FilePath>
+            </File>
+            <File>
+              <FileName>Plateau.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Plateau.c</FilePath>
+            </File>
+            <File>
+              <FileName>UART.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\UART.c</FilePath>
+            </File>
+            <File>
+              <FileName>Batterie.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Batterie.c</FilePath>
             </File>
           </Files>
         </Group>
         <Group>
-          <GroupName>TPGPIO</GroupName>
-        </Group>
-        <Group>
-          <GroupName>TPTIMER</GroupName>
-        </Group>
-        <Group>
-          <GroupName>TPADC</GroupName>
-        </Group>
-        <Group>
-          <GroupName>TPUART</GroupName>
+          <GroupName>Driver</GroupName>
+          <Files>
+            <File>
+              <FileName>Girouette.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Driver\Include\Girouette.h</FilePath>
+            </File>
+            <File>
+              <FileName>MyTimer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Driver\Include\MyTimer.h</FilePath>
+            </File>
+            <File>
+              <FileName>Voile.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Driver\Include\Voile.h</FilePath>
+            </File>
+            <File>
+              <FileName>Plateau.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Plateau.h</FilePath>
+            </File>
+            <File>
+              <FileName>UART.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\UART.h</FilePath>
+            </File>
+            <File>
+              <FileName>Batterie.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Batterie.h</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>::CMSIS</GroupName>

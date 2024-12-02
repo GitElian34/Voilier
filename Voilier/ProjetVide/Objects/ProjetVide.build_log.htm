@@ -21,26 +21,25 @@ Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.0.0
 Dialog DLL:      TARMSTM.DLL V1.67.1.0
  
 <h2>Project:</h2>
-U:\Windows\Bureau\ADC\ADC\ProjetVide\ProjetVide.uvprojx
-Project File Date:  10/18/2024
+U:\Voilier\ProjetVide\ProjetVide.uvprojx
+Project File Date:  12/02/2024
 
 <h2>Output:</h2>
 *** Using Compiler 'V6.22', folder: 'C:\Program Files\Keil_5.4\ARM\ARMCLANG\Bin'
 Rebuild target 'Simulation'
 Note: source file 'RTE/Device/STM32F103RB/system_stm32f10x.c' - object file renamed from '.\Objects\system_stm32f10x.o' to '.\Objects\system_stm32f10x_1.o'.
-assembling startup_stm32f10x_md.s...
-compiling adc.c...
-compiling usart.c...
-compiling system_stm32f10x.c...
-compiling Driver_GPIO.c...
-Application/principal.c(10): warning: variable 'adcValue' set but not used [-Wunused-but-set-variable]
-   10 |                             uint32_t adcValue=0;
-      |                                      ^
-1 warning generated.
+compiling Voile.c...
+compiling Plateau.c...
+compiling Girouette.c...
+compiling MyTimer.c...
+compiling Batterie.c...
+compiling UART.c...
 compiling principal.c...
+assembling startup_stm32f10x_md.s...
+compiling system_stm32f10x.c...
 linking...
-Program Size: Code=924 RO-data=252 RW-data=0 ZI-data=1632  
-".\Objects\ProjetVide.axf" - 0 Error(s), 1 Warning(s).
+Program Size: Code=14552 RO-data=1104 RW-data=8 ZI-data=1664  
+".\Objects\ProjetVide.axf" - 0 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -67,11 +66,11 @@ Package Vendor: Keil
    * Component: ARM::CMSIS:CORE@6.1.0
 
    * Component: Keil::Device:Startup@1.0.0
-      Source file:   Device/Source/system_stm32f10x.c
       Include file:  RTE_Driver/Config/RTE_Device.h
-      Source file:   Device/Source/ARM/startup_stm32f10x_md.s
+      Source file:   Device/Source/system_stm32f10x.c
       Source file:   Device/Source/ARM/STM32F1xx_OPT.s
-Build Time Elapsed:  00:00:01
+      Source file:   Device/Source/ARM/startup_stm32f10x_md.s
+Build Time Elapsed:  00:00:03
 </pre>
 </body>
 </html>

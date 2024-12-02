@@ -1,5 +1,4 @@
-./objects/mytimer.o: ..\Driver\Source\MyTimer.c \
-  ..\Driver\Include\MyTimer.h \
+./objects/plateau.o: Plateau.c Plateau.h \
   C:\ProgramData\keil\ARM\Pack\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h \
   RTE\_Simulation\RTE_Components.h \
   C:\ProgramData\keil\ARM\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h \
